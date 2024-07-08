@@ -21,7 +21,7 @@ const Dashboard = () => {
                 <span>Please Login!</span>
              <div>
               <Link href="/api/auth/signin">
-              <button onClick={() => signIn("google")} className="rounded-xl border-4 p-2 border-slate-600 bg-emerald-400">Login with Credentials</button>
+              <button className="rounded-xl border-4 p-2 border-slate-600 bg-emerald-400">Login with Credentials</button>
               </Link>
               </div>
             </div>
