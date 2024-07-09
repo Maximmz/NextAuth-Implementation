@@ -20,9 +20,13 @@ const Dashboard = () => {
             <div className="h-[100vh] max-w-full flex flex-col justify-center items-center gap-4">
                 <span>Please Login!</span>
              <div>
+              <div>
               <Link href="/api/auth/signin">
-              <button onClick={() => signIn("google")} className="rounded-xl border-4 p-2 border-slate-600 bg-emerald-400">Login with Credentials</button>
+              <button className="rounded-xl border-4 p-2 border-slate-600 bg-emerald-400 me-2">Login with Credentials</button>
               </Link>
+              <button onClick={() => signIn("google")} className="rounded-xl border-4 p-2 border-slate-600 bg-emerald-400 me-2">Login with Google</button>
+              <button onClick={() => signIn("github")} className="rounded-xl border-4 p-2 border-slate-600 bg-emerald-400 ">Login with Github</button>
+              </div>
               </div>
             </div>
         )
