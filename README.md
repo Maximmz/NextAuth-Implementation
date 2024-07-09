@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## NextAuth
+This is a NextAUth Implementation on version 14.2.4
+
+## Branches
+Credentials brandh consists of the standard credentials login.
+Github-Google branch consists of the Github and Google OAuth Login
+Main branch consists of all the options.
 
 ## Getting Started
 
